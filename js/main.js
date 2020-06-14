@@ -20,4 +20,4 @@ const PERSONAJE = function (personaje){
 const MOSTRAR_PERSONAJE = `${API_URL}${PERSONAJES_URL.replace(":id", introNumero)}`;
 
 // para traer los datos del servidor.
-$get(MOSTRAR_PERSONAJE, OPCIONES, PERSONAJE);
+$.get(MOSTRAR_PERSONAJE, OPCIONES, PERSONAJE);
